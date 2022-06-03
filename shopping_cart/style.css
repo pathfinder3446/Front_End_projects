@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    font-family: ;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    vertical-align: auto;
+    
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    color: white;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+th:first-child, th:nth-child(2){
+    text-align: left;
+}
+
+
+tr th:last-child, tr td:last-child{
+    width: 120px;
+    text-align: center;
+}
+
+tr th:first-child, tr td:first-child {
+    width: 120px;
+}
+
+tr th:nth-child(2), tr td:nth-child(2) {
+    width: 200px;
+}
+
+tr th:nth-child(4), tr th:nth-child(5) {
+    text-align: right;
+    width: 120px;
+}
+
+
+tr td:first-child, tr td:nth-child(2) {
+    text-align: left;
+}
+
+tr td:nth-child(3) {
+    text-align: center;
+}
+
+tr td:nth-child(4), tr td:nth-child(5) {
+    text-align: right;
+    width: 120px;
+}
+
+tr:nth-child(even):not(tr:last-child) {
+    background-color: rgba(200, 200, 200, 1);
+}
+
+tr:nth-child(odd):not(tr:last-child) {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+tr:last-child {
+    background-color: dimgrey;
+    color: white;
+}
+
+tr:last-child td {
+    text-align: right;
+}
+
+
+.footer {
+    display: flex;
+    float: right;
+    margin: 20px;
+    margin-right: 0em; 
+}
+
+#footer1 {
+    background-color: tomato;
+    height: 30px;
+    padding: 5px;
+    /* color: white; */
+    margin-right: 5px;
+    
+}
+
+#footer1:hover,  #footer2:hover{
+    cursor: pointer;
+}
+
+#footer2{
+    background-color: tomato;
+    height: 30px;
+    padding: 5px;
+    /* color: white; */
+    margin-left: 5px;
+}
+
+span {
+    color: white;
+}
+
+i {
+    margin: 4px;
+}
